@@ -11,15 +11,15 @@ Fyi: To get the link to use wget you have to righ-click on the lick on the site 
    sudo apt install openjdk-17-jdk
 
    # Now go to this site and download the minecraft_server or use the script to download the server file. 
-   https://www.minecraft.net/en-us/download/server 
+   https://www.minecraft.net/en-us/download/server #Right click ont the minecraft_server link and type Wget ant the link
    
-   <br> wget https://piston-data.mojang.com/v1/objects/45810d238246d90e811d896f87b14695b7fb6839/server.jar
+   wget https://piston-data.mojang.com/v1/objects/45810d238246d90e811d896f87b14695b7fb6839/server.jar
    
    # Now make a folder on your desktop or where you want it
-   mkdir "name"
+   mkdir name
 
       # Move the server.jar file to desktop(or where you have the folder) then into the folder  
-      mv server.jar "path"
+      mv server.jar foldername # he name of the folder you made
 
 
    # In the server folder run the follwing command
