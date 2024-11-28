@@ -47,6 +47,8 @@ Fyi: To get the link to use wget you have to righ-click on the lick on the site 
    # And now to start the server 
    sudo ./start.sh
 
+   # how to find the server ip 
+   ip a # This will show you all the ip addresses on your computer. Look for the one that either a 192, 172 or 10 ip
 
 
    # If you want to stop the server type stop in the consoll
@@ -76,18 +78,20 @@ Fyi: To get the link to use wget you have to righ-click on the lick on the site 
    # To get the link you have to first click on the installer and then get the link from the skip button
    wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-installer.jar
 
-   # When you have your file run this command
-   java -jar "Filename/forgefile" --installServer
+   # When you have your file run this 
+   ls 
+   java -jar "filename" --installServer
    # Now way untill the download is done
 
    #If you want to change the maximum ram use this command and then change the -Xmx4G to your desired max ram 
-   nano user_jvm_args.txt
+   nano user_jvm_args.txt # You have to remove the hastage before -Xmx4G
    
    # Now we are almost done, but we need to start the server for the first time and accept eula 
    ./run.sh # This starts the server 
-   nano eula # This allows us to change the eula to true
+   nano eula.txt # This allows us to change the eula to true
 
    # If you type "ls" now you will see a mod folder. Move into the folder and put your mods here. There are multiple ways to download mod and here is a exemple.
+   # This is a example mod and may not work for your version:
    wget https://mediafilez.forgecdn.net/files/5393/334/ZZ.JJThunder_To_The_Max_1.20.1_v0.2.0.jar # If you need help to get the link follow the video bellow 
 
 
