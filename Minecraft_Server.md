@@ -13,7 +13,7 @@ Fyi: To get the link to use wget you have to righ-click on the lick on the site 
    # Now make a folder on your desktop or where you want it
       mkdir name
 
-      cd "name" # Go to the 
+      cd "name" # Go to the folder you just made 
    # Now go to this site and download the minecraft_server or use the script to download the server file. 
    https://www.minecraft.net/en-us/download/server #Right click on the minecraft_server link and type Wget ant the link
    
