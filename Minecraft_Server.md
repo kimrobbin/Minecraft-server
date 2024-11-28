@@ -8,7 +8,7 @@ Fyi: To get the link to use wget you have to righ-click on the lick on the site 
 
 ```sh
    # Download Open jdk (java)
-   sudo apt install openjdk-17-jdk
+   sudo apt install openjdk-21-jdk
 
    # Now go to this site and download the minecraft_server or use the script to download the server file. 
    https://www.minecraft.net/en-us/download/server #Right click ont the minecraft_server link and type Wget ant the link
@@ -27,7 +27,9 @@ Fyi: To get the link to use wget you have to righ-click on the lick on the site 
 
    
       # Now change the eula from false to true 
-      nano eula .txt
+      ls
+      
+      nano eula.txt
 
    # Create the config file that makes you bale to change ram config
    nano start.sh
