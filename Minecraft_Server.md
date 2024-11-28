@@ -14,12 +14,13 @@ Fyi: To get the link to use wget you have to righ-click on the lick on the site 
       mkdir name
 
       cd "name" # Go to the folder you just made 
+
    # Now go to this site and download the minecraft_server or use the script to download the server file. 
    https://www.minecraft.net/en-us/download/server #Right click on the minecraft_server link and type Wget ant the link
    
    wget https://piston-data.mojang.com/v1/objects/45810d238246d90e811d896f87b14695b7fb6839/server.jar
    
-   # In the server folder run the follwing command
+   # In the folder you just made run the follwing command
    java -jar server.jar    # The command made all the files needed 
 
    
@@ -31,7 +32,7 @@ Fyi: To get the link to use wget you have to righ-click on the lick on the site 
    # Create the config file that makes you bale to change ram config
    nano start.sh
 
-      # Now past this command(the hastage underneat is part of the script):
+      # Now past this command( #!/bin/sh is part of the script):
       
       #!/bin/sh
       java -Xms2094M -Xmx6144M -jar server.jar # You change the -Xms and -Xmx to configure min- maximum ram
